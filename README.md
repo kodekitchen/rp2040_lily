@@ -23,7 +23,7 @@ I have no RGB and no rotary encoders, so that is not covered.
 
 ## Setup
 
-Using [circuitpython sparkfun pro micro rp2040]https://circuitpython.org/board/sparkfun_pro_micro_rp2040/ for circuitpython worked.
+Using [circuitpython sparkfun pro micro rp2040](https://circuitpython.org/board/sparkfun_pro_micro_rp2040/) for circuitpython worked.
 
 Install it by downloading and drag and drop it to the controller showing up as a usb device (RPI-RP2) - if not hold the BOOT or BOOTSEL button while plugging the usb cable in and releasing it. 
 After copying the file the device will automatically vanish and reappear as CIRCUITPY (if not try several times, they might be a little stubborn at times).
@@ -32,7 +32,7 @@ Then install KMK (drag and drop the kmk folder and boot.py onto the device).
 
 At this point it is a good idea to download [picocom](https://github.com/npat-efault/picocom) and access the device from it (for me it was ./picocom /dev/ttyACM0 on ubuntu) so you can debug stuff.
 
-It is a good idea to name the two controllers differently for left and right to not get confused (https://learn.adafruit.com/welcome-to-circuitpython/renaming-circuitpy) - ideally you want the names to end with L or R respectively to not have to configure it in the source code.
+It is a good idea to name the two controllers differently for left and right to not get confused, [see](https://learn.adafruit.com/welcome-to-circuitpython/renaming-circuitpy) - ideally you want the names to end with L or R respectively to not have to configure it in the source code.
 
 For the keyboard to work you will basically need two files:
 
