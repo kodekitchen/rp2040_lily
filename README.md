@@ -13,7 +13,7 @@ The idea was to just swap the controller and try a different software, I did not
 - an assembled lily58
 - a promirco drop-in rp2040 board, I used [Tenstar RP2040 Pro Micro Development Board 4MB/16MB Dual-Core](https://de.aliexpress.com/item/1005006599393967.html?gatewayAdapt=glo2deu)
 - trrs cable (trs will work with the atmega 32u4 but not the rp2040s)
-- solder the controllers onto the pin headers exactly as with the regular promicros (chips down)
+- solder the controllers onto the pin headers exactly as with the regular promicros (chips down), leaving the topmost holes (the ones closest to the usb port) empty
 
 
 ## Not covered
@@ -42,4 +42,4 @@ For the keyboard to work you will basically need two files:
 
 ## Figure out pins for other boards
 
-https://learn.adafruit.com/circuitpython-essentials/circuitpython-pins-and-modules has a nice script to get the names correct if you got a pinout schematic for your board.
+[Circuitpython](https://learn.adafruit.com/circuitpython-essentials/circuitpython-pins-and-modules) has a nice script to get the names correct if you got a pinout schematic for your board.
