@@ -41,17 +41,17 @@ keyboard.keymap = [
                                    KC.LALT, KC.LCTL, LOWER,   KC,SPC,       KC.SPC,  RAISE,  KC.LGUI,  KC.RALT,
     ],
     [   #LOWER
-        _______, KC.MUTE,       KC.VOLU,       KC.VOLD,        XXXXXXX, XXXXXXX,                        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-        _______, KC.RALT(KC.Q), XXXXXXX,       KC.RALT(KC.E),  RPAR,    KC.PLUS,                        XXXXXXX, KC.KP_7, KC.KP_8, KC.KP_9, XXXXXXX, KC.F12,
-        _______, KC.GRAVE,      KC.SLSH(KC_1), KC.LBRC,        KC.RBRC, KC.EQL,                         XXXXXXX, KC.KP_4, KC.KP_5, KC.KP_6, XXXXXXX, XXXXXXX,
-        _______, XXXXXXX,       XXXXXXX,       LGT,            RGT,     PIPE,    AMP,          XXXXXXX, KC.KP_0, KC.KP_1, KC.KP_2, KC.KP_3, KC.BSLS, XXXXXXX,
-                                                      _______, _______, _______, _______,      _______, _______, _______, _______,
+        _______, KC.MUTE,       KC.VOLU,       KC.VOLD,        XXXXXXX,        XXXXXXX,                        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        _______, KC.RALT(KC.Q), XXXXXXX,       KC.RALT(KC.E),  KC.LSFT(KC.N4), KC.PLUS,                        XXXXXXX, KC.KP_7, KC.KP_8, KC.KP_9, XXXXXXX, XXXXXXX,
+        _______, KC.GRAVE,      KC.SLSH(KC_1), KC.LBRC,        KC.RBRC,        KC.EQL,                         XXXXXXX, KC.KP_4, KC.KP_5, KC.KP_6, XXXXXXX, XXXXXXX,
+        _______, XXXXXXX,       XXXXXXX,       XXXXXXX,        XXXXXXX,        XXXXXXX, XXXXXXX,      XXXXXXX, KC.KP_0, KC.KP_1, KC.KP_2, KC.KP_3, KC.BSLS, XXXXXXX,
+                                                      _______, _______,        _______, _______,      _______, _______, _______, _______,
     ],
     [   #RAISE
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                        MENU,    XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-        XXXXXXX, XXXXXXX, KC.UP,   XXXXXXX, XXXXXXX, XXXXXXX,                        KC.VOLU, KC.HOME, KC.UP,   KC.END,  KC.PGUP, XXXXXXX,
-        _______, KC.LEFT, KC.DOWN, KC.RGHT, XXXXXXX, XXXXXXX,                        KC.VOLD, KC.LEFT, KC.DOWN, KC.RGHT, KC.PGDN, XXXXXXX,
-        _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,      _______, KC.MPLY, KC.INS,  KC.DEL,  XXXXXXX, XXXXXXX, XXXXXXX,
+        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,                        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        XXXXXXX, XXXXXXX, KC.UP,   XXXXXXX, XXXXXXX, XXXXXXX,                        KC.PSCR, KC.DEL,  KC.HOME, KC.END,  XXXXXXX, XXXXXXX,
+        _______, KC.LEFT, KC.DOWN, KC.RGHT, XXXXXXX, XXXXXXX,                        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
+        _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______,      _______, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
                                    _______, _______, _______, _______,      _______, _______, _______, _______,
     ]
 ]

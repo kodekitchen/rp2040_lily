@@ -15,6 +15,10 @@ The idea was to just swap the controller and try a different software, I did not
 - trrs cable (trs will work with the atmega 32u4 but not the rp2040s)
 - solder the controllers onto the pin headers exactly as with the regular promicros (chips down), leaving the topmost holes (the ones closest to the usb port) empty
 
+## I can't get displays working
+
+But I am not looking at the keyboard when typing so it is not essential. But I would so have liked to get them working...
+
 
 ## Not covered
 
@@ -25,7 +29,9 @@ I have no RGB and no rotary encoders, so that is not covered.
 
 Using [circuitpython sparkfun pro micro rp2040](https://circuitpython.org/board/sparkfun_pro_micro_rp2040/) for circuitpython worked.
 
-Install it by downloading and drag and drop it to the controller showing up as a usb device (RPI-RP2) - if not hold the BOOT or BOOTSEL button while plugging the usb cable in and releasing it. 
+Connect the controller to USB.
+
+Install it by downloading and drag and dropping it to the controller showing up as a usb device (RPI-RP2) - if not hold the BOOT or BOOTSEL button while plugging the usb cable in and releasing it. 
 After copying the file the device will automatically vanish and reappear as CIRCUITPY (if not try several times, they might be a little stubborn at times).
 
 Then install KMK (drag and drop the kmk folder and boot.py onto the device).
